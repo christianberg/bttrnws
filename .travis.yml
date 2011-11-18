@@ -1,3 +1,3 @@
 language: clojure
-before_script: "lein version, deps"
+before_script: "lein version, deps, diagnostics"
 script: "lein midje"
